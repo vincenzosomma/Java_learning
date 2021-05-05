@@ -27,7 +27,7 @@ public class switchcase {
                 break;
 
             case '/':
-                result = numberOne + numberTwo;
+                result = numberOne / numberTwo;
                 System.out.println("Result");
                 System.out.println(result);
                 break;
