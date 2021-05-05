@@ -27,7 +27,7 @@ public class switchcase {
                 break;
 
             case '/':
-                result = numberOne / numberTwo;
+                result = numberOne + numberTwo;
                 System.out.println("Result");
                 System.out.println(result);
                 break;
@@ -37,7 +37,9 @@ public class switchcase {
                 System.out.println("Result");
                 System.out.println(result);
                 break;
-
+            
+            default:
+                System.out.println(" Insert a Correct Operator");
 
         }
 
